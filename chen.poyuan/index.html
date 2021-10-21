@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Look Vending</title>
+</head>
+<base href="/aau/wnm617/chen.poyuan/">
+<link rel="stylesheet" href="lib/css/jquery.mobile.structure-1.4.5.min.css">
+<link rel="stylesheet" href="css/app.css">
+<script src="lib/js/jquery-2.2.4.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/signin.js"></script>
+<script src="lib/js/jquery.mobile-1.4.5.min.js"></script>
+<body>
+
+<section data-role="page" id="page-signin" class="mainbg">
+	<div data-role="main" class="display-flex flex-vertical">
+
+		<div class="flex-stretch"></div>
+		<form data-ajax="false" class="form" id="signin-form" style="padding: 15%;">
+			<div class="mainlogo"><h1>Look Vending</h1></div>
+			<div class="form-control">
+				<input class="form-input" type="text" id="signin-username" data-role="none" placeholder="Username">
+			</div>
+
+			<div class="form-control">
+				<input class="form-input" type="password" id="signin-password" data-role="none" placeholder="Password">
+			</div>
+
+			<div class="bgcolor-Ice signin-button">
+				<input type="submit" value="Sign In" class="form-button">
+			</div>
+			<div class="form-control small centered font-color-Ice">
+				New User? <a href="#page-signup">Sign Up</a>
+			</div>
+		</form>	
+	</div>
+</section>
+
+
+<section data-role="page" id="page-signup" class="mainbg">
+	<div data-role="main" class="display-flex flex-vertical">
+		<div class="flex-stretch"></div>
+		<form data-ajax="false" class="form" id="signup-form" style="padding: 15%;">
+			<div class="form-control">
+				<!--<label for="signup-email" class="form-label font-color-Ice">User Name</label> -->
+				<input class="form-input" type="text" id="signup-email" data-role="none" placeholder="Username">
+			</div>
+			<div class="form-control">
+				<!--<label for="signup-password" class="form-label font-color-Ice">Password</label> -->
+				<input class="form-input" type="password" id="signup-password" data-role="none" placeholder="Password">
+			</div>
+			<div class="form-control">
+				<!--<label for="signup-password2" class="form-label font-color-Ice">Comfirm Password</label> -->
+				<input class="form-input" type="password" id="signup-password2" data-role="none" placeholder="Confirm Password">
+			</div>
+
+			<div class="form-control bgcolor-Ice signin-button">
+				<input type="submit" value="Sign up" class="form-button">
+			</div>
+			<div class="form-control small centered font-color-Ice">
+				Already have an account? <a href="#page-signin">Sign In</a>
+			</div>
+		</form>	
+	</div>
+</section>
+
+
+<section data-role="page" id="page-recent">
+
+	<div class="form-control mainbg signin-button">
+			<input type="" value="Search" class="form-button">
+	</div>
+	<div data-role="main">
+		<div class="map"></div>
+	</div>
+	<footer data-role="footer" class="bgcolor-Ice">
+		<ul>
+			<li><a href="#page-recent">Map</li>
+			<li><a href="#page-list">List</li>
+			<li><a href="#page-user-profile">Profile</li>
+		</ul>
+	</footer>
+</section> 
+
+
+<section data-role="page" id="page-list">
+	<div data-role="main" class="overscroll">
+		<ul>
+			<li><a href="#page-animal-profile">Location 1</a></li>
+			<li><a href="#page-animal-profile">Location 2</a></li>
+			<li><a href="#page-animal-profile">Location 3</a></li>
+			<li><a href="#page-animal-profile">Location 4</a></li>
+			<li><a href="#page-animal-profile">Location 5</a></li>
+			<li><a href="#page-animal-profile">Location 6</a></li>
+			<li><a href="#page-animal-profile">Location 7</a></li>
+			<li><a href="#page-animal-profile">Location 8</a></li>
+			<li><a href="#page-animal-profile">Location 9</a></li>
+			<li><a href="#page-animal-profile">Location 10</a></li>
+			<li><a href="#page-animal-profile">Location 11</a></li>
+			<li><a href="#page-animal-profile">Location 12</a></li>
+			<li><a href="#page-animal-profile">Location 13</a></li>
+			<li><a href="#page-animal-profile">Location 14</a></li>
+			<li><a href="#page-animal-profile">Location 15</a></li>
+			<li><a href="#page-animal-profile">Location 16</a></li>
+			<li><a href="#page-animal-profile">Location 17</a></li>
+			<li><a href="#page-animal-profile">Location 18</a></li>
+			<li><a href="#page-animal-profile">Location 19</a></li>
+			<li><a href="#page-animal-profile">Location 20</a></li>	
+			<li><a href="#page-animal-profile">Location 21</a></li>
+			<li><a href="#page-animal-profile">Location 22</a></li>
+			<li><a href="#page-animal-profile">Location 23</a></li>
+			<li><a href="#page-animal-profile">Location 24</a></li>
+			<li><a href="#page-animal-profile">Location 25</a></li>
+			<li><a href="#page-animal-profile">Location 26</a></li>
+			<li><a href="#page-animal-profile">Location 27</a></li>
+			<li><a href="#page-animal-profile">Location 28</a></li>
+			<li><a href="#page-animal-profile">Location 29</a></li>
+			<li><a href="#page-animal-profile">Location 30</a></li>
+		</ul>
+		<div class="floater bottom right">
+			<a href="#" class="btn-circle" data-activate="#list-add-modal">&plus;</a>
+		</div>
+	</div>
+
+	<footer data-role="footer" class="bgcolor-Ice">
+		<ul>
+			<li><a href="#page-recent">Map</li>
+			<li><a href="#page-list">List</li>
+			<li><a href="#page-user-profile">Profile</li>
+		</ul>
+	</footer>
+
+	<div class="modal" id="list-add-modal">
+		<div class="modal-back" data-deactivate="#list-add-modal"></div>
+		<div class="modal-popup form">
+			<div class="modal-head">head</div>
+			<div class="modal-body">body</div>
+			<div class="modal-foot">footer</div>
+		</div>	
+	</div>
+</section> 
+
+
+
+<section data-role="page" id="page-user-profile">
+	<div data-role="main" class="overscroll">
+		USER!!!!
+		<div>
+			<button class="form-button js-logout">Log Out</button>
+		</div>
+	</div>
+	<footer data-role="footer" class="bgcolor-Ice">
+		<ul>
+			<li><a href="#page-recent">Map</li>
+			<li><a href="#page-list">List</li>
+			<li><a href="#page-user-profile">Profile</li>
+		</ul>
+	</footer>
+</section> 
+
+<section data-role="page" id="page-animal-profile">
+	<header data-role="header">	
+		<ul>
+			<li><a href="#page-recent">BACK</li>
+		</ul>
+	</header>
+	<h1>Food & Drink indoor</h1>
+	<div data-role="main">
+		<p>Address: 1080 Bush CA, 94109</p>
+		
+	</div>
+	<div class="img-gallary"></div>
+</section> 
+
+</body>
+</html>

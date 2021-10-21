@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Title</title>
+<base href="/aau/wnm617/chen.poyuan/">
+<link rel="stylesheet" href="lib/css/jquery.mobile.structure-1.4.5.min.css">
+<link rel="stylesheet" href="css/app.css">
+<script src="lib/js/jquery-2.2.4.min.js"></script>
+<script src="lib/js/app.js"></script>
+<script src="lib/js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+<section data-role="page" id="page1">
+	<header data-role="header">
+		page 1
+	</header>
+
+	<div data-role="main">
+		Page 1 body
+		<p><a href="#page2">page2</a></p>
+		<p><a href="#page3">page3</a></p>		
+	</div>
+
+	<footer data-role="footer">
+		page 1
+	</footer>
+</section>
+
+
+<section data-role="page" id="page2">
+	<header data-role="header">
+		page 2
+	</header>
+
+	<div data-role="main">
+		Page 2 body
+		<p><a href="#page1">page1</a></p>
+		<p><a href="#page3">page3</a></p>		
+	</div>
+
+	<footer data-role="footer">
+		page 2
+	</footer>
+</section>
+
+
+<section data-role="page" id="page3">
+	<header data-role="header">
+		<a href="#" data-rel="back">BACK</a>
+		<h1>page 3<h1>
+	</header>
+
+	<div data-role="main">
+		Page 3 body
+	</div>
+</section>
+
+
+
+
+</body>
+</html>
