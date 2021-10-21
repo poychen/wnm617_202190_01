@@ -1,10 +1,11 @@
-# Your Name
+# Po Yuan Chen
 
 ## Important Links
 
-- http://pochendev.com/
-- http://pochendev.com/aau/wnm617/chen.poyuan/
+Final projet guide: http://pochendev.com/aau/wnm617/chen.poyuan/plan/Project_%20Look%20Vending.pdf
+Final projet: http://pochendev.com/aau/wnm617/chen.poyuan/
 
-## Perhaps Some Notes
 
-- Take note of how markdown works
+
+
+Update note: Links updated.
